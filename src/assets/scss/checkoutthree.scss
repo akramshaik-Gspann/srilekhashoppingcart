@@ -1,0 +1,103 @@
+.payment_info {
+  position: relative;
+
+}
+.icon{
+  color: #1363DF;
+}
+.shipping_info_radio {
+  margin-bottom: 20px;
+}
+.paymentInfoTitle {
+  font: normal normal 600 30px/30px Source Serif Pro;
+}
+.paymentInfoCart{
+  margin-bottom: 25px;
+  h1 {
+
+      text-align: center;
+      font: normal normal 600 40px/45px Source Serif Pro;
+      letter-spacing: 0px;
+      color: #172026;
+      opacity: 1;
+      position: relative;
+      &::before {
+          content: "";
+          background-color: #1363DF;
+          width: 80px;
+          position: absolute;
+          height: 8px;
+          bottom: -25%;
+          left: 48%;
+      }
+  }
+}
+input[type="checkbox"] {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 0;
+  border: 1px solid #91959c;
+}
+label {
+  // font-weight: normal;
+  display: block;
+}
+.checkbox1 {
+  padding: 20px 0px 0px 0px;
+}
+.payment-method {
+  border: 1px solid #d1d3d6;
+  padding: 20px;
+  margin-left: 0px;
+}
+.checkoutpricing{
+  padding-left: 30px;
+}
+.form-check {
+  padding-left: 0px;
+}
+.standard{
+  float:left;
+  margin-right: 10px !important;
+}
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1800px) {
+
+  .paymentInfoCart {
+      margin-top: 70px;
+  }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .button__method_one {
+    text-align: center;
+    position: relative;
+    top: -29px !important;
+    padding: 20px;
+}
+.paymentInfoCart h1::before {
+  content: "";
+  background-color: #1363DF;
+  width: 80px;
+  position: absolute;
+  height: 8px;
+  bottom: -27%;
+  left: 40%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+.button__method_one {
+  text-align: center;
+  position: relative;
+  top: -22px;
+  padding: 20px;
+}
+}
+
